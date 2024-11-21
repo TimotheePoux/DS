@@ -72,3 +72,9 @@ figure{
         text-decoration: none;
     }
 }
+
+footer{
+    background-color: #6a3460;
+    text-align: center  ;
+    height: 500px;
+}
