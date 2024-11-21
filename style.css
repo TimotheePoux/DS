@@ -3,6 +3,7 @@ body{
 }
 
 header{
+    width:100%;
     background-color: #6a3460;
     display: flex;
     justify-content: space-between ;
@@ -59,8 +60,7 @@ figure{
     padding:15px;
     padding-bottom: 30px;
     &>img{
-        width:100%;
-        min-height: 100%;
+        width: 100%;
     }
 }
 
@@ -85,10 +85,12 @@ figure:hover{
     font-family: "Open Sans", serif;
     font-size: 2em;
     text-decoration: none;
+    transition: 1s;
 }
 
 #button:hover{
     transform: scale(150%);
+    padding: 22.5px;
     background: white;
     border-color: #6A3460;
     color: #6A3460;
