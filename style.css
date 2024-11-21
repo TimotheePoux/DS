@@ -1,3 +1,54 @@
+body{
+    margin: auto;
+}
+
 header{
     background-color: #6a3460;
+    display: flex;
+    justify-content: space-between ;
+    &>img{
+        width:8%
+    }
+    &>div{
+        margin-top: 2%;
+        width: 10%;
+        font-size: 2em;
+        display: flex;
+        justify-content: space-around;
+        color:white;
+    }
+}
+
+section{
+    background-image: url("images/santorini.jpg");
+    background-position: center;
+    position: relative;
+    height: 750px;
+    &>p{
+        background: #6A3460;
+        color: white;
+        position: absolute;
+        left: 1%;
+        top: 15%;
+        font-family: "Oleo Script", serif;font-size: 2.5em;
+        padding: 25px;
+    }
+}
+
+nav{
+    text-align: center; 
+    font-family: "Open Sans", serif;
+    background: #E4DCE2;
+    width: 100%;
+    padding-top: 1%;
+    &>div{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+figure{
+    &>img{
+        width:100%
+    }
 }
