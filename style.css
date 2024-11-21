@@ -41,6 +41,9 @@ nav{
     background: #E4DCE2;
     width: 100%;
     padding-top: 1%;
+    &>p{
+        font-size: 2em;
+    }
     &>div{
         display: flex;
         justify-content: space-around;
@@ -50,5 +53,22 @@ nav{
 figure{
     &>img{
         width:100%
+    }
+}
+
+#CTA{
+    background-attachment: fixed;
+    background-image: url("images/holiday.jpg");
+    padding: 100px;
+    text-align: center;
+    &>a{
+        color:white;
+        background: #6A3460;
+        padding: 15px;
+        border: 5px solid #FFFFFF;
+        border-radius: 20px;
+        font-family: "Open Sans", serif;
+        font-size: 2em;
+        text-decoration: none;
     }
 }
