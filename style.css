@@ -74,16 +74,24 @@ figure:hover{
     background-image: url("images/holiday.jpg");
     padding: 100px;
     text-align: center;
-    &>a{
-        color:white;
-        background: #6A3460;
-        padding: 15px;
-        border: 5px solid #FFFFFF;
-        border-radius: 20px;
-        font-family: "Open Sans", serif;
-        font-size: 2em;
-        text-decoration: none;
-    }
+}
+
+#button{
+    color:white;
+    background: #6A3460;
+    padding: 15px;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px;
+    font-family: "Open Sans", serif;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+#button:hover{
+    transform: scale(150%);
+    background: white;
+    border-color: #6A3460;
+    color: #6A3460;
 }
 
 footer{
